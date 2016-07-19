@@ -1,1 +1,73 @@
-c
+
+body {
+  font-family: 'Pirata One', cursive;
+  background-image: url('../img/Pirate-Background.jpg');
+  background-repeat: repeat-n;
+  background-size: 100%;
+}
+
+
+.hero {
+  margin-top: 7em;
+  overflow: auto;
+}
+
+.bartender_pic {
+  width: 100%;
+}
+
+.ready_to_drink {
+  font-size: 3.5em;
+}
+
+.hero_box {
+  text-align: center;
+  padding: 3em 0;
+  background-color: #8F8F8F;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.2);
+  min-height: 25em;
+}
+
+.solid {
+
+}
+
+.question_form {
+  display: none;
+}
+
+.question_text {
+  font-size: 3.5em;
+  margin: 1em;
+}
+
+.answer_box {
+  font-size: 3em;
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+}
+
+.answer {
+  margin: -0.2em 1em 0 1em;
+}
+
+.drink_result {
+  
+}
+
+.drink_result_headline {
+  font-size: 3.5em;
+}
+
+.drink_result_ingredients {
+  font-size: 2.5em;
+}
+
+.templates {
+  display: none;
+}

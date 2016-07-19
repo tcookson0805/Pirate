@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>Pirate Bartender</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified Boostrap CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Pirata+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel='stylesheet' type:'text/css' href='css/main.css'>
+</head>
+
+<body>
+
+  <div class = 'container'>
+    <section class='row hero'>
+      <div class='col-xs-12'>
+        <div class = 'row'>
+        
+<!--           <div class='col-xs-6 bartender'><img class='bartender_pic' src='img/pirate_bartender.jpg' /></div>
+ -->        
+          <div class='col-xs-8 col-xs-offset-2 hero_box'>
+            <div class='ready_to_drink'>
+              <p class='solid'>Hey thar bucko...<br>If ye would like a drink, click here?</p>
+            </div>     
+          </div>
+        </div>.
+      </div>
+    </section>
+  </div>
+  
+  <!-- TEMPLATES -->
+  <div class = 'templates'>
+    
+    <!-- QUESTION -->
+    <form class='question_form'>
+      <div class="checkbox question">
+        <div class='question_text solid'>Do ye like yer drinks strong?</div>
+        <div class='answer_box'>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox1" class='checkbox' value='true' >
+            <div class='answer solid'>Aye</div>
+          </label>
+          <label class="checkbox-inline">
+            <input type="checkbox" id="inlineCheckbox2" class='checkbox' value='false'>
+            <div class='answer solid'>Nay</div>
+          </label>
+        </div>
+      </div>
+    </form>
+    
+    <!-- RESULT -->
+    <div class='drink_result'>
+      <div class='row drink_result_headline solid'>Here's yer Drink....</div>
+      <div class='row drink_result_ingredients solid'></div>
+    </div>
+  
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="http://underscorejs.org/underscore.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    
+</body>
+</html>
